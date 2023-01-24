@@ -11,8 +11,18 @@ for-loop
 */
 
 int main(){
+    int total = 0;
+    
     for (int i = 0; i < 5; i++){
         cout << i << endl;
+        
+        total+=i;
+        
     }
+    cout << "Total Sum: " << total << endl;
+
+    
+
+
     return 0;
 }
