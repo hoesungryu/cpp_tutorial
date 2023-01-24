@@ -6,7 +6,7 @@
 `coding test`에 통과하기 위해서 c++ code를 공부하고자 본 레포지 토리를 만듬. 
 
 - reference: [인프런 하루 10분 c++ 강의 입문](https://www.inflearn.com/course/%ED%95%98%EB%A3%A8-10%EB%B6%84-%EC%94%A8%EC%81%A0%EC%81%A0/dashboard)
-
+- reference: [그림으로 배우는C ++ Programming Basic](https://product.kyobobook.co.kr/detail/S000000555542)
 
 ## Plans 
 1. Intro 
