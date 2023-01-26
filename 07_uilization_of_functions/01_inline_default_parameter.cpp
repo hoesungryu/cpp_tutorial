@@ -22,6 +22,18 @@ int main() {
 
 
 // ---------------------------------- 
+const int SIZE = 8;
+int sumArr(int*, int n = 1); // default 매개변수는 뒤에서 부터... 똑같네 
+
+
+int sumArr(int* arr, int n){
+  int total = 0;
+
+  for(int i = 0; i < n; i++)
+    total += arr[i];
+
+  return total;
+}
 
 
 int main() {
