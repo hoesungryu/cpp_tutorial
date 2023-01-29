@@ -28,7 +28,8 @@ private = 해당 클래스에서만 접근이 가능
         void sell(int, float);
         void update(float);
         void show();
-        Stock();
+        Stock(string co, int n, float pr); //overloading function1
+        Stock(); //overloading function2
         ~Stock();
 };
 #endif
