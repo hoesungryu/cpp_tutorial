@@ -18,7 +18,8 @@ int main() {
 	day2.show();
 
 	Time total;
-	total = day1.operator+(day2);
+	// total = day1.operator+(day2);
+    total = day1 + day2;
 	total.show();
 
 	return 0;

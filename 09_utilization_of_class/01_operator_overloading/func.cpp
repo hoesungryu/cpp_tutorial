@@ -20,6 +20,7 @@ void Time::addMins(int m) {
 	mins %= 60;
 };
 
+// operator overloading 
 Time Time::operator+(Time& t) {
 	Time sum;
 	sum.mins = mins + t.mins;
@@ -34,6 +35,12 @@ void Time::show() {
 	std::cout << "분 : " << mins << std::endl;
 }
 
-Time::~Time()
-{
+Time::~Time() {}
+
+Time Time::operator*(int n) {
+	Time result;
+	long resultMin = hours * n * 60 + mins * n;
+	result.hours = resultMin / 60;
+	result.mins = resultMin % 60;
+	return result;
 }
