@@ -1,10 +1,10 @@
 # cpp_tutorial
 
 ## 시작하기 전 
-`SW TEST` C형을 통과하기 위해서  `c++` 공부하고자 본 레포지토리를 만듬. 
-꼭 테스트 통과가 아니여도 `Python` 이외에 다른 언어를 해보는 것도 좋은 것 같다는 생각이듬. 
+`c++` 공부하고자 본 레포지토리를 만듬. 
+`Python` 이외에 다른 언어를 해보는 것도 좋은 것 같다는 생각이듬. 
 
-## Plans 
+## Plans (5days; 30 hours)
 1. Intro 
 2. Dealing with Data
 3. Complex Data
