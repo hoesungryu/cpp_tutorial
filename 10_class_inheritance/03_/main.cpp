@@ -8,3 +8,12 @@
 그래서 포인터를 저장하면 된다. !!! --> 오.... 
 */
 
+#include <iostream>
+#include "time.h"
+using namespace std; 
+
+int main() {
+
+
+    return 0;
+}
