@@ -6,8 +6,8 @@ friend는 클래스의 맴버 함수에 동일하게 접근 할수있다.
 왜? 두개의 피연산자를 요구하는 연산자일때 friend가 필요 
 */
 
-#include<iostream>
-#include"time.h"
+#include <iostream>
+#include "time.h"
 using namespace std;
 
 int main() {
